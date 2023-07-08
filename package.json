@@ -1,0 +1,36 @@
+{
+  "name": "javascript-immutability-kata",
+  "version": "1.0.0",
+  "description": "This is a kata 🥋 javascript 🟨 project to understand and practice the immutability concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -c jest.config.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zearkiatos/javascript-immutability-kata.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Kata",
+    "immutability",
+    "mutability"
+  ],
+  "author": "Pedro Capriles <caprilespe@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zearkiatos/javascript-immutability-kata/issues"
+  },
+  "homepage": "https://github.com/zearkiatos/javascript-immutability-kata#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "@babel/register": "^7.22.5",
+    "@faker-js/faker": "^8.0.2",
+    "jest": "^29.6.1",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
